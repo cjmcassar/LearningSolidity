@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "helloWorld",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isPure",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "_returnValue",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pureText",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "restore",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newText",
+						"type": "string"
+					}
+				],
+				"name": "setText",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "This is a contract for learning",
+			"kind": "dev",
+			"methods": {
+				"helloWorld()": {
+					"returns": {
+						"_0": "Value of the string stored in the text variable "
+					}
+				},
+				"setText(string)": {
+					"params": {
+						"newText": "Text string that is going to replace the text variable"
+					}
+				}
+			},
+			"title": "Hello World",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Hello World implementation example with solidity",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HelloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HelloWorld.sol": {
+			"keccak256": "0xb76530986cf85775e4353e96747e12b30ebc962bbbdf58d3af67381003a35395",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e7577c3f52e9fd91fa9b1bfc6cf63b8570cc1fb0328b347ba9efb2ab71a40205",
+				"dweb:/ipfs/QmWvM8ZZ7hPXLeymM7ht2oeoJuDKKHQ6K91tqsEE11e6G9"
+			]
+		}
+	},
+	"version": 1
+}
