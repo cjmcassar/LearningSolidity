@@ -7,6 +7,11 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract HelloWorld{
     string text;
+    address deployer;
+
+    constructor(){
+        deployer = msg.sender;
+    }
 
     /// @return Value of the string stored in the text variable 
     function helloWorld() public view returns(string memory){
@@ -19,7 +24,7 @@ contract HelloWorld{
     }
 
     function sample() public view returns (address){
-        return msg.sender;
+        return deployer;
     }
 
 }

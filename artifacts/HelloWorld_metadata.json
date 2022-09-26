@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "helloWorld",
 				"outputs": [
 					{
@@ -87,11 +92,11 @@
 	},
 	"sources": {
 		"HelloWorld.sol": {
-			"keccak256": "0xf35f6fbb34875b510471fc4280d6557e7381b9341b36a0038171d4412cc08fc8",
+			"keccak256": "0xd54dada036498fc8d5f64a4b7e2f6f2bdb01c017c5672d9c9285ec2797b6d738",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5f7fac9aaa9077028ddd56ed0ede3c767b211fd211179fbd3a3d004e667d4ac4",
-				"dweb:/ipfs/QmNP8FXLS7pLZzh8GbeiYzLXjo1ddQfGUP3bucAtg3CMt1"
+				"bzz-raw://a51233516d861f6ee3022921ebfba28d4a5f1a21b155de0945ec7bcf3685c05e",
+				"dweb:/ipfs/QmUGDyvWQkQhyqKogStJ2Pozyye9wCXoiYEEhSVU6g36mX"
 			]
 		}
 	},
