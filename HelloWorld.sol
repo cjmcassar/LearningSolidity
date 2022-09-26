@@ -7,10 +7,10 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract HelloWorld{
     string text;
-    address deployer;
+    address public owner;
 
     constructor(){
-        deployer = msg.sender;
+        owner = msg.sender;
     }
 
     /// @return Value of the string stored in the text variable 
@@ -19,12 +19,18 @@ contract HelloWorld{
     }
 
     /// @param newText Text string that is going to replace the text variable
-    function setText(string memory newText) public payable{
+    function setText(string calldata newText) public onlyOwner{
         text = newText;
     }
 
-    function sample() public view returns (address){
-        return deployer;
+    function transferOwnership (address newOwner) public onlyOwner {
+        owner = newOwner;
+    }
+
+    modifier onlyOwner()
+    {
+        require (msg.sender == owner, "caller is not the owner");
+        _;
     }
 
 }

@@ -25,7 +25,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "sample",
+				"name": "owner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -46,7 +46,20 @@
 				],
 				"name": "setText",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -92,11 +105,11 @@
 	},
 	"sources": {
 		"HelloWorld.sol": {
-			"keccak256": "0xd54dada036498fc8d5f64a4b7e2f6f2bdb01c017c5672d9c9285ec2797b6d738",
+			"keccak256": "0xdbe8e4c1fc3b9718249f62936fc7a13167869ebeb70a33b05a248de099b70476",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a51233516d861f6ee3022921ebfba28d4a5f1a21b155de0945ec7bcf3685c05e",
-				"dweb:/ipfs/QmUGDyvWQkQhyqKogStJ2Pozyye9wCXoiYEEhSVU6g36mX"
+				"bzz-raw://634821aae84839cfbea38b19073d90a7b6a6c45fd42e328d9c51cb256e12e92a",
+				"dweb:/ipfs/QmNbTJx9pKoUZvpCL6KNMn2D9NLeoUTRoGhbyw9d4jMapD"
 			]
 		}
 	},
