@@ -7,11 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
 				"name": "helloWorld",
 				"outputs": [
 					{
@@ -25,41 +20,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "isPure",
+				"name": "sample",
 				"outputs": [
 					{
-						"internalType": "bool",
-						"name": "_returnValue",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pureText",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "restore",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -118,11 +87,11 @@
 	},
 	"sources": {
 		"HelloWorld.sol": {
-			"keccak256": "0x36fb2045b7a9636a55e6defb42328e0f0982b0af3c43c84fed0932ab1562318a",
+			"keccak256": "0x0372a01131839711d57d4e50a151854bfef1d801dc3ebfd0a5484dbd9543910b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://773bc281f8ac0698473d037dba1f23b3cc05fbe4615ab8ed7fd9c7a5a4c7a66a",
-				"dweb:/ipfs/QmULz3Qv3AoeCrK9j5UMtBu11v1QUNDMceE5NpBirAj1Hi"
+				"bzz-raw://f0ed5ab7ed2c9e7ceda2f599e86752ea6acf15585da5dfed27ed45c6a5b95ab5",
+				"dweb:/ipfs/QmUsFCtwk6EvM5LRgVfXPuiLexeExEvcZKXb4NGGtiJMgD"
 			]
 		}
 	},

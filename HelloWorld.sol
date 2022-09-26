@@ -8,10 +8,6 @@ pragma solidity >=0.7.0 <0.9.0;
 contract HelloWorld{
     string text;
 
-    constructor(){
-        text = pureText();
-    }
-
     /// @return Value of the string stored in the text variable 
     function helloWorld() public view returns(string memory){
        return text;
@@ -22,29 +18,8 @@ contract HelloWorld{
         text = newText;
     }
 
-    function pureText() public pure returns (string memory){
-        return "Hello World";
+    function sample() public view returns (uint256){
+        return block.number;
     }
 
-    function isPure() public view returns (bool _returnValue) {
-        _returnValue = _isPure();
-    }
-
-    function restore() public whenNotPure returns (bool){
-        _restore();
-        return true;
-    }
-
-    modifier whenNotPure(){  
-       require(!_isPure(), "The value of text is already pure");
-        _;
-    }
-
-     function _isPure() internal view returns (bool _check){
-        _check = keccak256(bytes(text)) == keccak256(bytes(pureText())); 
-    }
-
-    function _restore() internal {
-        text = pureText();
-    }
 }
