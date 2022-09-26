@@ -30,10 +30,14 @@ contract HelloWorld{
         _returnValue = _isPure();
     }
 
-    function restore() public returns (bool){
-        require (! _isPure(), "HelloWorld: The value of text is already pure");
+    function restore() public whenNotPure returns (bool){
         _restore();
         return true;
+    }
+
+    modifier whenNotPure(){  
+       require(!_isPure(), "The value of text is already pure");
+        _;
     }
 
      function _isPure() internal view returns (bool _check){
