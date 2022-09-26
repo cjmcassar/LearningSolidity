@@ -18,8 +18,8 @@ contract HelloWorld{
         text = newText;
     }
 
-    function sample() public view returns (uint256){
-        return block.number;
+    function sample() public view returns (address){
+        return msg.sender;
     }
 
 }
