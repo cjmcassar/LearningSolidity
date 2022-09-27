@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "panicNotPresent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HelloWorld.sol": "PanicInterface"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HelloWorld.sol": {
+			"keccak256": "0x8d893309c04f932334d6cd430df7389b4ae817674925be596b9072b0764c8fad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d58428f18b74df3b27c503dec36dbb7e1da097de7b84ff0967aa8c38b1e65c6",
+				"dweb:/ipfs/QmPZEBB7vkF9g7gK2UP6w7UszqutTkZKk9nvRWFtvE149g"
+			]
+		}
+	},
+	"version": 1
+}
