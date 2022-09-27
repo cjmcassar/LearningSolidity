@@ -105,11 +105,11 @@
 	},
 	"sources": {
 		"HelloWorld.sol": {
-			"keccak256": "0x8d893309c04f932334d6cd430df7389b4ae817674925be596b9072b0764c8fad",
+			"keccak256": "0x0a9324e2123eeaf1b55abd72007b4728fe024ea5301c134a1d2402e6ddbe3bf0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d58428f18b74df3b27c503dec36dbb7e1da097de7b84ff0967aa8c38b1e65c6",
-				"dweb:/ipfs/QmPZEBB7vkF9g7gK2UP6w7UszqutTkZKk9nvRWFtvE149g"
+				"bzz-raw://f0bae8c864c401efc4b3c6f85f1e03d1b7b20c5bd3667be28d2c4123bb76df10",
+				"dweb:/ipfs/QmP9zvnJ2R12WhwtZ4f81CTFg5ARzgs8xqaBdscfm2cCWD"
 			]
 		}
 	},
